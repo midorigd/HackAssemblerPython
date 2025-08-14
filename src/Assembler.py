@@ -47,7 +47,7 @@ class HackAssembler:
                 print(self._lookupAddress(self._parser.symbol()), file=outFile)
 
             elif self._parser.commandType() == 'C_COMMAND':
-                print(code.encode(self._parser.dest(), self._parser.comp(), self._parser.jump()), file=outFile)
+                print(code.encode(self._parser.dest, self._parser.comp, self._parser.jump), file=outFile)
 
         outFile.close()
 
