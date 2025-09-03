@@ -34,6 +34,10 @@ python3 -m HackAssembler path/to/file.asm
 
 My C++ implementation of this project: [HackAssembler (C++)](https://github.com/midorigd/HackAssemblerCpp)
 
+### Stats
+
+275 lines (219 loc)
+
 ## References
 
 [nand2tetris](https://www.nand2tetris.org/course)
